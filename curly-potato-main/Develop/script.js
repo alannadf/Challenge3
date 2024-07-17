@@ -22,7 +22,7 @@ const collectEmployees = function() {
     }
   }
 
-
+return employees;
   // TODO: Get user input to create and return an array of employee objects
 }
 
