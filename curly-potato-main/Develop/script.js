@@ -36,6 +36,8 @@ const displayAverageSalary = function(employeesArray) {
   let totalSalary = employeesArray.reduce((sum, employee) => sum + employee.salary, 0);
   let averageSalary = totalSalary / employeesArray.length;
 
+  console.log("Average salary: $" + averageSalaryFormatted + ", Total employees: " + employeeCount);
+  
 }
 
 // Select a random employee
