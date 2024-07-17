@@ -17,7 +17,7 @@ const collectEmployees = function() {
 
     employees.push({ firstName, lastName, salary});
     let response = prompt("Do you want to add another employee? (yes/no)");
-    if (response.toLowerCase() !== "yes") {
+    if (response === null || response.toLowerCase() !== "yes") {
       morePeople = false;
     }
   }
