@@ -14,6 +14,8 @@ const collectEmployees = function() {
     if (isNaN(salary)){
       salary = 0;
     }
+
+    employees.push({ firstName, lastName, salary});
   }
   // TODO: Get user input to create and return an array of employee objects
 }
