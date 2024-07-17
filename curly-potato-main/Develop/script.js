@@ -40,9 +40,13 @@ const displayAverageSalary = function(employeesArray) {
   
 }
 
-// Select a random employee
+// Select a random employee // TODO: Select and display a random employee
 const getRandomEmployee = function(employeesArray) {
-  // TODO: Select and display a random employee
+  if (employeesArray.length === 0) {
+    console.log("No employees to select.");
+    return;
+  }
+  
 }
 
 /*
