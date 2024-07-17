@@ -46,6 +46,9 @@ const getRandomEmployee = function(employeesArray) {
     console.log("No employees to select.");
     return;
   }
+
+  let randomIndex = Math.floor(Math.random() * employeesArray.length);
+  let randomEmployee = employeesArray[randomIndex];
   
 }
 
