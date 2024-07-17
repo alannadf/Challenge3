@@ -26,9 +26,13 @@ return employees;
   // TODO: Get user input to create and return an array of employee objects
 }
 
-// Display the average salary
+// Display the average salary // TODO: Calculate and display the average salary
 const displayAverageSalary = function(employeesArray) {
-  // TODO: Calculate and display the average salary
+  if (employeesArray.length === 0) {
+    console.log("No employees found.");
+    return;
+  }
+
 }
 
 // Select a random employee
