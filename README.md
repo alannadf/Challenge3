@@ -34,6 +34,6 @@ cd (directory name)
 
 ## Contact
 
-* The URL of the deployed application:
+* The URL of the deployed application: https://alannadf.github.io/Challenge3/
 
-* The URL of the GitHub repository:
+* The URL of the GitHub repository: https://github.com/alannadf/Challenge3.git
