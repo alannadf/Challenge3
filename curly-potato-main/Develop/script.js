@@ -50,6 +50,7 @@ const getRandomEmployee = function(employeesArray) {
   let randomIndex = Math.floor(Math.random() * employeesArray.length);
   let randomEmployee = employeesArray[randomIndex];
   
+  console.log('Random Employee: ${randomEmployee.firstName} ${randomEmployee.lastName}');
 }
 
 /*
